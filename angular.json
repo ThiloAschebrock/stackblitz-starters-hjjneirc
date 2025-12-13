@@ -31,7 +31,12 @@
             "browser": "src/main.ts",
             "outputPath": "dist/demo",
             "scripts": [],
-            "styles": ["src/global_styles.css"],
+            "styles": [
+              "src/global_styles.css",
+              "node_modules/@allianz/ng-aquila/css/normalize.css",
+              "node_modules/@allianz/ng-aquila/css/utilities.css",
+              "node_modules/@allianz/ng-aquila/themes/aquila.css"
+            ],
             "tsConfig": "tsconfig.app.json"
           }
         },
@@ -51,6 +56,7 @@
           "builder": "@angular/build:unit-test",
           "options": {
             "tsConfig": "tsconfig.spec.json",
+            "setupFiles": ["src/test-setup.ts"],
             "providersFile": "src/test-providers.ts",
             "runner": "vitest"
           }

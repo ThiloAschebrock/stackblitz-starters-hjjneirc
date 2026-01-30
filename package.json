@@ -8,15 +8,15 @@
     "test": "ng test"
   },
   "dependencies": {
-    "@allianz/ng-aquila": "^21.0.0",
-    "@angular/animations": "^21.0.6",
-    "@angular/cdk": "^21.0.5",
-    "@angular/common": "^21.0.6",
-    "@angular/compiler": "^21.0.6",
-    "@angular/core": "^21.0.6",
-    "@angular/forms": "^21.0.6",
-    "@angular/platform-browser": "^21.0.6",
-    "@angular/router": "^21.0.6",
+    "@allianz/ng-aquila": "^21.2.0",
+    "@angular/animations": "^21.1.2",
+    "@angular/cdk": "^21.1.2",
+    "@angular/common": "^21.1.2",
+    "@angular/compiler": "^21.1.2",
+    "@angular/core": "^21.1.2",
+    "@angular/forms": "^21.1.2",
+    "@angular/platform-browser": "^21.1.2",
+    "@angular/router": "^21.1.2",
     "dayjs": "^1.11.5",
     "decimal.js": "^10.3.1",
     "i18n-iso-countries": "^7.5.0",
@@ -26,16 +26,16 @@
     "tslib": "^2.5.0"
   },
   "devDependencies": {
-    "@angular/build": "^21.0.4",
-    "@angular/cli": "^21.0.4",
-    "@angular/compiler-cli": "^21.0.6",
-    "@testing-library/angular": "^18.1.1",
+    "@angular/build": "^21.1.2",
+    "@angular/cli": "^21.1.2",
+    "@angular/compiler-cli": "^21.1.2",
+    "@testing-library/angular": "^19.0.0",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/user-event": "^14.6.1",
-    "@types/node": "^25.0.3",
-    "jsdom": "^27.3.0",
+    "@types/node": "^25.1.0",
+    "jsdom": "^27.4.0",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.16"
+    "vitest": "^4.0.18"
   }
 }

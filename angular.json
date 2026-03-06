@@ -57,7 +57,8 @@
           "options": {
             "tsConfig": "tsconfig.spec.json",
             "providersFile": "src/test-providers.ts",
-            "runner": "vitest"
+            "runner": "vitest",
+            "browsers": ["chromiumHeadless"]
           }
         }
       },

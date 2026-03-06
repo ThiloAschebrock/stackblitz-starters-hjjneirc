@@ -1,7 +1,7 @@
 import { provideZonelessChangeDetection } from "@angular/core";
 import { bootstrapApplication } from "@angular/platform-browser";
-import { Datepicker } from "./app/datepicker/datepicker";
+import { SelectionControls } from "./app/selection-controls/selection-controls";
 
-bootstrapApplication(Datepicker, {
+bootstrapApplication(SelectionControls, {
   providers: [provideZonelessChangeDetection()],
 });
